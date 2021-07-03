@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A325E850268FBD5200256704 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A325E84F268FBD5200256704 /* DetailViewController.swift */; };
+		A353545D268F8BD9003F9681 /* ContactBookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A353545C268F8BD9003F9681 /* ContactBookTableViewCell.swift */; };
+		A353545F268F8CD7003F9681 /* ContactBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A353545E268F8CD7003F9681 /* ContactBookViewController.swift */; };
 		A37DC9FD268F6B03001BE6BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37DC9FC268F6B03001BE6BC /* AppDelegate.swift */; };
 		A37DC9FF268F6B03001BE6BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37DC9FE268F6B03001BE6BC /* SceneDelegate.swift */; };
-		A37DCA01268F6B03001BE6BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37DCA00268F6B03001BE6BC /* ViewController.swift */; };
+		A37DCA01268F6B03001BE6BC /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37DCA00268F6B03001BE6BC /* LogInViewController.swift */; };
 		A37DCA04268F6B03001BE6BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A37DCA02268F6B03001BE6BC /* Main.storyboard */; };
 		A37DCA07268F6B03001BE6BC /* ContactBookWithPassword.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A37DCA05268F6B03001BE6BC /* ContactBookWithPassword.xcdatamodeld */; };
 		A37DCA09268F6B07001BE6BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A37DCA08268F6B07001BE6BC /* Assets.xcassets */; };
@@ -17,10 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A325E84F268FBD5200256704 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A353545C268F8BD9003F9681 /* ContactBookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactBookTableViewCell.swift; sourceTree = "<group>"; };
+		A353545E268F8CD7003F9681 /* ContactBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactBookViewController.swift; sourceTree = "<group>"; };
 		A37DC9F9268F6B03001BE6BC /* ContactBookWithPassword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactBookWithPassword.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A37DC9FC268F6B03001BE6BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A37DC9FE268F6B03001BE6BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A37DCA00268F6B03001BE6BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A37DCA00268F6B03001BE6BC /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		A37DCA03268F6B03001BE6BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A37DCA06268F6B03001BE6BC /* ContactBookWithPassword.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ContactBookWithPassword.xcdatamodel; sourceTree = "<group>"; };
 		A37DCA08268F6B07001BE6BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,7 +66,10 @@
 			children = (
 				A37DC9FC268F6B03001BE6BC /* AppDelegate.swift */,
 				A37DC9FE268F6B03001BE6BC /* SceneDelegate.swift */,
-				A37DCA00268F6B03001BE6BC /* ViewController.swift */,
+				A353545C268F8BD9003F9681 /* ContactBookTableViewCell.swift */,
+				A37DCA00268F6B03001BE6BC /* LogInViewController.swift */,
+				A353545E268F8CD7003F9681 /* ContactBookViewController.swift */,
+				A325E84F268FBD5200256704 /* DetailViewController.swift */,
 				A37DCA02268F6B03001BE6BC /* Main.storyboard */,
 				A37DCA08268F6B07001BE6BC /* Assets.xcassets */,
 				A37DCA0A268F6B07001BE6BC /* LaunchScreen.storyboard */,
@@ -140,10 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A37DCA01268F6B03001BE6BC /* ViewController.swift in Sources */,
+				A37DCA01268F6B03001BE6BC /* LogInViewController.swift in Sources */,
 				A37DC9FD268F6B03001BE6BC /* AppDelegate.swift in Sources */,
+				A353545F268F8CD7003F9681 /* ContactBookViewController.swift in Sources */,
 				A37DCA07268F6B03001BE6BC /* ContactBookWithPassword.xcdatamodeld in Sources */,
+				A353545D268F8BD9003F9681 /* ContactBookTableViewCell.swift in Sources */,
 				A37DC9FF268F6B03001BE6BC /* SceneDelegate.swift in Sources */,
+				A325E850268FBD5200256704 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +304,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ContactBookWithPassword/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,7 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = itis.ContactBookWithPassword;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,6 +323,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ContactBookWithPassword/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,7 +331,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = itis.ContactBookWithPassword;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
